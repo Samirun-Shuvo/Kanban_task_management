@@ -1,22 +1,4 @@
-# Frontend Mentor - Kanban task management web app solution
-
-- [this project YouTube video Tutorial](https://www.youtube.com/watch?v=3RWMktZNsJQ&t=1707s)
-
-This is a solution to the [Kanban task management web app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/kanban-task-management-web-app-wgQLt-HlbB). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
-
-## Table of contents
-
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-  - [Built with](#built-with)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-
-## Overview
-
-### The challenge
+# Kanban task management web app solution
 
 Users should be able to:
 
@@ -42,17 +24,11 @@ Expected Behaviour:
   - Adding a new task adds it to the bottom of the relevant column.
   - Updating a task's status will move the task to the relevant column.
 
-Bonus:
+
 
 - The tasks can be dragged and dropped to a new column.
 
-### Screenshot
 
-![Screenshot](<./public/screenshots/Screen%20Shot%202023-03-29%20at%201.40.56%20PM%20(2).png>)
-
-### Links
-
-- Live Site URL: [link](https://kanban-task-management-react-tailwind.vercel.app/)
 
 ### Built with
 
@@ -61,10 +37,25 @@ Bonus:
 - [React](https://reactjs.org/) - JS library
 - [Redux](https://redux.js.org/) - State management tool
 
-### Useful resources
+**How to Run a React Application Locally**
+**Prerequisites**
+Ensure you have Node.js and npm (Node Package Manager) installed on your machine.
+If not, download and install from the Node.js official website.
+**Steps to Run the Application**
+**Clone the Repository:**
+Open your terminal (Command Prompt, PowerShell, or Terminal).
+Use the git clone command to clone the repository. Replace [repository link] with the actual URL of the repository:
+git clone [repository link]
 
-- [Drag and Drop quick tutorial](https://www.youtube.com/watch?v=u65Y-vqYNAk)
+**Navigate to the Project Directory:**
+Change your current directory to the project directory:
+cd [project-directory]
 
-## Author
+**Install Dependencies:**
+Ensure you are in the project directory and run the following command to install all necessary dependencies:
+npm install
 
-- LinkedIn - [Hesam DearBoy](https://www.linkedin.com/in/hesam-azizpour-23259b265/)
+**After installing the dependencies, start the application using:**
+npm start
+
+This command will start the development server and automatically open the application in your default web browser. The application is typically accessible at http://localhost:3000.
