@@ -41,11 +41,13 @@ Expected Behaviour:
 **Prerequisites**
 Ensure you have Node.js and npm (Node Package Manager) installed on your machine.
 If not, download and install from the Node.js official website.
+
 **Steps to Run the Application**
+
 **Clone the Repository:**
 Open your terminal (Command Prompt, PowerShell, or Terminal).
-Use the git clone command to clone the repository. Replace [repository link] with the actual URL of the repository:
-git clone [repository link]
+Use the git clone command to clone the repository.
+git clone https://github.com/Samirun-Shuvo/Kanban_task_management.git
 
 **Navigate to the Project Directory:**
 Change your current directory to the project directory:
